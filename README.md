@@ -2,8 +2,8 @@
 
 ### Pass 'mailGun' credentials in .env file with exactly same variable names.
 - EMAIL_SERVICE = "Name of the service, e.g: 'mailgun'"
-- EMAIL_AUTH_USERNAME = "username"
-- EMAIL_AUTH_PASSWORD = "password"
+- EMAIL_AUTH_USERNAME = "*username*"
+- EMAIL_AUTH_PASSWORD = "*password*"
 
 
 ### Pass 'OneSignal' credentials in .env file with exactly same variable names.
@@ -13,10 +13,10 @@
 
 
 ### Pass 'GupShup' credentials in .env file with exactly same variable names.
-- SMS_URL = "http://coruscateitsolution.msg4all.com/GatewayAPI/rest"
-- SMS_USER_ID = "glamelegance"
-- SMS_PASSWORD = "ZqXCdbH5D"
-- SMS_TEMPLATE_ID: "656206"
+- SMS_URL = "*URL*"
+- SMS_USER_ID = "XXXXXXXXXXX"
+- SMS_PASSWORD = "XXXXXXXXXXX"
+- SMS_TEMPLATE_ID: "XXXXXXXXXXX"
 
 
 #### Example : https://github.com/ankurrokad/advancedNotifications
