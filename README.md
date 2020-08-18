@@ -26,7 +26,7 @@
 const Notification = require('advancedNotifications')
 
 // Send All notifications
-// Param Example : https://github.com/ankurrokad/advancedNotifications/blob/master/params.json
+// Params Example : https://github.com/ankurrokad/advancedNotifications/blob/master/params.json
     await Notification.sendAll(params)
 
 // Send Emails Only
@@ -59,7 +59,7 @@ let params = [
 // Send Push Notification
    let params = [
         {
-            playerIds: ["f7bbdb70-ddf3-4e1e-a88e-c9f287a5be8f"],
+            playerIds: ["fXXXXX0-ddf3-4e1e-a88e-cXXXXXXXXf"],
             content: "Test Notification, Content",
             data: "TEST NOTIFICATION DATA",
             title: "TEST TITLE"
