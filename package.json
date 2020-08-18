@@ -1,0 +1,20 @@
+{
+  "name": "advancenotifications",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "email-templates": "^7.1.0",
+    "nodemailer": "^6.4.11",
+    "onesignal-node": "^3.1.5",
+    "request": "^2.88.2",
+    "underscore": "^1.10.2"
+  }
+}
