@@ -14,9 +14,6 @@ module.exports = {
                 pass: process.env.EMAIL_AUTH_PASSWORD
             }
         });
-        obj.to = ['ankurrokad@gmail.com']
-        obj.bcc = ['ankurrokad@gmail.com']
-        obj.cc = ['ankurrokad@gmail.com']
 
         const email = new Email({
             message: {
